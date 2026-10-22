@@ -1,0 +1,42 @@
+# Keil build outputs
+**/Objects/
+**/Listings/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.iex
+*.build_log.htm
+*.Bak
+*.bak
+*.lock
+
+# Per-user IDE settings
+*.uvoptx
+*.uvguix.*
+
+# Large optional CMSIS demos and prebuilt libraries
+**/Drivers/CMSIS/DSP/Examples/
+**/Drivers/CMSIS/DSP/Lib/
+**/Drivers/CMSIS/NN/Examples/
+**/Drivers/CMSIS/NN/Lib/
+
+# Installer and platform binaries
+DP2026_SCM/Tools/
+*.exe
+*.dll
+*.sys
+*.vxd
+*.cat
+*.inf
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
